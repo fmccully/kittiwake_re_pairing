@@ -98,4 +98,28 @@ DATA-SPECIFIC INFORMATION FOR:
  
  next_season: reproductive outcome in year t + 1
  
+ "pers_scores_with_colony.csv" and "absol_random.csv" are used to conduct the randomisations to test if re-pairing birds choose partners that are more similar to themselves than their previous mates. 
  
+ "pers_scores_with_colony.csv"
+ 
+ colony: bird location either Pyramiden or Grumant
+ 
+ pers_scores: bird's boldness score
+ 
+ "absol_random.csv"
+ 
+ focal_ring: re-pairing bird's unique ID
+ 
+ colony.x: bird location either Pyramiden or Grumant
+ 
+ orig_absol: original partnership's absolute difference in boldness score
+ 
+ new_absol: new partnership's absolute difference in boldness score
+ 
+ trueDiff: true difference between original and new absolute difference scores
+ 
+ F_pers: focal/ re-pairing bird's boldness score
+ 
+ orig_part_pers: original partner's boldness score
+ 
+ new_part_pers: new partner's boldness score
