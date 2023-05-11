@@ -41,25 +41,61 @@ Instrument- or software-specific information needed to interpret the data: Data 
 DATA-SPECIFIC INFORMATION FOR: 
 
 "absol_hist.csv" is the dataset used to test for assortative mating in kittiwakes (model 1). 
+
  male_ring: male bird unique ID
+ 
  female_ring: female bird unique ID
+ 
  male_pers: male bird pers score
+ 
  female_pers: female bird pers score
+ 
  colony: bird location either Pyramiden or Grumant
+ 
  
  "all_kitt_data3.csv" is the dataset used to investigate the links between personality, reproductive success and re-pairing in the kittiwakes (models 2, 3 and 5). 
+ 
   male_ring: male bird unique ID
+  
  female_ring: female bird unique ID
+ 
  colony: bird location either Pyramiden or Grumant
+ 
  pair_id: unique pair ID
+ 
  cycle_pair: unique breeding attempt ID
- year: year of breeding attempt
+ 
+ year: year of breeding attempt (year t)
+ 
  chick_sur: outcome of breeding attempt success1/0fail in year t
- ulti_outcome: re-pairing outcome in year t+1
+ 
+ ulti_outcome: re-pairing outcome in year t+n
+ 
  missed_seasons: number of seasons since birds were recorded last
+ 
  male_pers: male bird pers score
+ 
  female_pers: female bird pers score
+ 
  absol: absolute difference in boldnesss score between pair members
  
+ 
+ "next_season_repro.csv" is the dataset used for investigating the effect of re-pairing on future reproduction outcomes (model 4).
+ 
+ ring: bird unique ID
+ 
+ sex: Male M/ Female F
+ 
+ colony: bird location either Pyramiden or Grumant
+ 
+ pair_id: unique pair ID
+ 
+ cycle_pair: unique breeding attempt ID
+ 
+ year: year of breeding attempt (year t)
+ 
+ season_outcome: re-pairing outcome in year t+1
+ 
+ next_season: reproductive outcome in year t + 1
  
  
