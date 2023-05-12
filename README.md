@@ -44,11 +44,11 @@ DATA-SPECIFIC INFORMATION FOR:
 
  male_ring: male bird unique ID
  
- female_ring: female bird unique ID
+ female_ring.x: female bird unique ID
  
- male_pers: male bird pers score
+ male_pers.x: male bird pers score
  
- female_pers: female bird pers score
+ female_pers.x: female bird pers score
  
  colony: bird location either Pyramiden or Grumant
  
@@ -66,9 +66,7 @@ DATA-SPECIFIC INFORMATION FOR:
  cycle_pair: unique breeding attempt ID
  
  year: year of breeding attempt (year t)
- 
- nest: nest number
- 
+
  chick_sur: outcome of breeding attempt success1/0fail in year t
  
  season_outcome: partnership outcome in year t+1
@@ -76,10 +74,6 @@ DATA-SPECIFIC INFORMATION FOR:
  ulti_outcome: re-pairing outcome in year t+n
  
  missed_seasons: number of seasons since birds were recorded last
- 
- male_next_season_sur: male's success in year t + 1 success 1 or failure 0
- 
- female_next_season_sur: male's success in year t + 1 success 1 or failure 0
  
  male_pers: male bird pers score
  
@@ -103,8 +97,6 @@ DATA-SPECIFIC INFORMATION FOR:
  year_t: year of breeding attempt (year t)
  
  season_outcome: re-pairing outcome in year t+1
- 
- season_tru: divorce outcome year t+1
  
  next_season: reproductive outcome in year t + 1
  
