@@ -9,12 +9,14 @@ library(sjPlot)
 library(car)
 library(knitr)
 
+setwd("M:/Documents/R Practice/pers_breeding/R markdown")
 
 absol_hist<-read.csv ("absol_hist.csv") # this dataset is used to test for assortative mating (model 1)
 all_kitt<-read.csv("all_kitt_data3.csv") #this dataset is used for models 2, 3 and 5
 next_season_repro<-read.csv("next_season_repro.csv") # this dataset is used for model 4
 pers_colony<-read.csv("pers_scores_with_colony.csv") # this dataset and the one below are used to conduct the randomisations
 absol_ran<-read.csv("absol_random.csv")
+
 
 absol_hist$colony<-as.factor(absol_hist$colony)
 absol_hist$male_ring<-as.factor(absol_hist$male_ring)
@@ -25,12 +27,9 @@ all_kitt$colony<-as.factor(all_kitt$colony)
 all_kitt$male_ring<-as.factor(all_kitt$male_ring)
 all_kitt$female_ring<-as.factor(all_kitt$female_ring)
 all_kitt$year<-as.factor(all_kitt$year)
-all_kitt$nest<-as.factor(all_kitt$nest)
 all_kitt$chick_sur<-as.factor(all_kitt$chick_sur)
 all_kitt$season_outcome<-as.factor(all_kitt$season_outcome)
 all_kitt$ulti_outcome<-as.factor(all_kitt$ulti_outcome)
-all_kitt$male_next_season_sur<-as.factor(all_kitt$male_next_season_sur)
-all_kitt$female_next_season_sur<-as.factor(all_kitt$female_next_season_sur)
 
 ## @knitr assort_mating_setup
 
@@ -321,7 +320,6 @@ ns_repro$pair_ID<-as.factor(ns_repro$pair_ID)
 ns_repro$year_t<-as.factor(ns_repro$year_t)
 ns_repro$season_outcome<-as.factor(ns_repro$season_outcome)
 ns_repro$next_season<-as.factor(ns_repro$next_season)
-ns_repro$season_tru<-as.factor(ns_repro$season_tru)
 ns_repro$cycle_pair<-as.factor(ns_repro$cycle_pair)
 
 
