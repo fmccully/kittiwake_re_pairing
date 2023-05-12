@@ -67,11 +67,19 @@ DATA-SPECIFIC INFORMATION FOR:
  
  year: year of breeding attempt (year t)
  
+ nest: nest number
+ 
  chick_sur: outcome of breeding attempt success1/0fail in year t
+ 
+ season_outcome: partnership outcome in year t+1
  
  ulti_outcome: re-pairing outcome in year t+n
  
  missed_seasons: number of seasons since birds were recorded last
+ 
+ male_next_season_sur: male's success in year t + 1 success 1 or failure 0
+ 
+ female_next_season_sur: male's success in year t + 1 success 1 or failure 0
  
  male_pers: male bird pers score
  
@@ -79,7 +87,7 @@ DATA-SPECIFIC INFORMATION FOR:
  
  absol: absolute difference in boldnesss score between pair members
  
- 
+
  "next_season_repro.csv" is the dataset used for investigating the effect of re-pairing on future reproduction outcomes (model 4).
  
  ring: bird unique ID
@@ -92,9 +100,11 @@ DATA-SPECIFIC INFORMATION FOR:
  
  cycle_pair: unique breeding attempt ID
  
- year: year of breeding attempt (year t)
+ year_t: year of breeding attempt (year t)
  
  season_outcome: re-pairing outcome in year t+1
+ 
+ season_tru: divorce outcome year t+1
  
  next_season: reproductive outcome in year t + 1
  
